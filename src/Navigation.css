@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:ital,wght@1,700&display=swap');
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #050404;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+}
+
+.header h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #8000ff;
+   
+}
+
+.header span {
+    color: rgb(97, 210, 230);
+}
+
+.logo {
+    height: 1rem; /* Adjust this height to match the header text */
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+} */
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 100000;
+    width: 100%;
+}
+
+.nav-link ul {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: clamp(1.125rem, 0.6563rem + 1.5vw, 1.5rem);
+    letter-spacing: 3px;
+    transition: 0.6s;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(97, 210, 230);
+    border-radius: 1rem;
+    padding: 5px 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+li a:hover {
+    background-color: rgb(97, 210, 230);
+    color: #050404;
+}
+
